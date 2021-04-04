@@ -1,0 +1,6 @@
+<button (click)="getGroup()">Show Groups</button>
+<div *ngFor = "let group of groupList">
+  <p>
+    Id: {{group.id}} Name: {{group.gname}} Quantity: {{group.users}}
+  </p>
+</div>
